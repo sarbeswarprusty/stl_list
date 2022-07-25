@@ -1,0 +1,14 @@
+#include <iostream>  
+#include<list>  
+using namespace std;  
+  
+int main()  
+{  
+   list<string> li={"C"," C++"," QT"};  
+   list<string>::iterator itr;  
+   li.push_back(" QML");  
+   li.push_back(" CAN");  
+  for(itr=li.begin();itr!=li.end();++itr)  
+   cout<<*itr;  
+    return 0;  
+}
